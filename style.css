@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: cursive;
+} 
+
+.hero{
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, #4b636a, #4c5867);
+  color: white;
+  height: 81vh;
+  padding: 0 20px;
+}
+.hero_style{
+    max-width: 600px;
+}
+
+.game-button{
+    background-color: rgb(109, 68, 68);
+    color: #0072ff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.game-button:hover{
+    background-color: black;
+}
+.site-footer{
+    background-color: rgb(145, 174, 226);
+    color: rgb(5, 59, 59);
+    padding: 30px 0px;
+    text-align: center;
+}
+.footer-container{
+    align-items: center;
+    gap: 15px;
+}
